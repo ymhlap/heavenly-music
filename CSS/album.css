@@ -1,0 +1,179 @@
+ body {
+   font-family: 'Arial', sans-serif;
+   margin: 0;
+   padding: 0;
+   background-image: url(../images/音乐背景.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: center;
+   color: #fff;
+   overflow-x: hidden;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   min-height: 100px;
+ }
+
+ header {
+   color: #ffffff;
+   padding: 10px 0;
+   font-size: 18px;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   z-index: 1000;
+ }
+
+ nav {
+   text-align: center;
+   margin-top: 5px;
+ }
+
+ nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+
+ nav ul li {
+   display: inline;
+   margin-right: 20px;
+ }
+
+ nav ul li a {
+   text-decoration: none;
+   color: #fff;
+ }
+
+ nav ul li a:hover {
+   color: #4e9ffc;
+ }
+
+ nav ul li a:active {
+   color: #9641f8;
+ }
+
+ main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 80px;
+ }
+
+ .container {
+   text-align: left;
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+ }
+
+ section {
+   border-radius: 12px;
+   margin: 20px auto;
+   padding: 40px;
+   width: 80%;
+   text-align: center;
+ }
+
+ section img {
+   border-radius: 12px;
+   width: 300px;
+   height: auto;
+   margin: 0 auto 30px;
+   display: block;
+ }
+
+ section h2,
+ section h3,
+ section p {
+   color: #333;
+ }
+
+ section p:last-child {
+   margin-bottom: 0;
+ }
+
+ section ul {
+   list-style: none;
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+
+ section ul li {
+   margin: 15px;
+   flex: 1 1 200px;
+   color: #921f1f;
+ }
+
+ section ul li a {
+   color: #8608ec;
+   text-decoration: none;
+   font-size: 17px;
+   display: block;
+   padding: 15px;
+   border-radius: 8px;
+   background: linear-gradient(to right, #ffb6c1, #ffec99);
+   transition: background 0.3s ease;
+ }
+
+ section ul li a:hover {
+   background: linear-gradient(to right, #ffec99, #ffb6c1);
+   color: #f53708;
+ }
+
+ section ul li a:active {
+   background: linear-gradient(to right, #ffb6c1, #ffec99);
+ }
+
+ section.cta {
+   background-color: rgba(255, 255, 255, 0.9);
+   border-radius: 12px;
+   margin: 20px auto;
+   padding: 40px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+   width: 80%;
+   text-align: center;
+ }
+
+ section.cta h2,
+ section.cta p {
+   color: #333;
+ }
+
+ section.cta div {
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-around;
+ }
+
+ section.cta a.cta-button {
+   text-decoration: none;
+   color: #fff;
+   font-size: 17px;
+   padding: 15px 30px;
+   border-radius: 8px;
+   background: linear-gradient(to right, #4cb8c4, #3cd3ad);
+   transition: background 0.3s ease;
+ }
+
+ section.cta a.cta-button:hover {
+   background: linear-gradient(to right, #3cd3ad, #4cb8c4);
+   color: #d8f572;
+ }
+
+ section.cta a.cta-button:active {
+   background: linear-gradient(to right, #4cb8c4, #3cd3ad);
+ }
+
+ footer {
+   color: #7fe9e9;
+   text-align: center;
+   padding: 10px 0;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+ }

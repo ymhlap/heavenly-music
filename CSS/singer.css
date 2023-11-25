@@ -1,0 +1,173 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/音乐背景.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-x: hidden;
+  margin-top: 50px;
+}
+
+header {
+  color: #7fe9e9;
+  padding: 10px 0;
+  font-size: 18px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  text-align: center;
+  margin-top: 5px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+main {
+  text-align: center;
+  margin-top: 80px;
+}
+
+div div {
+  text-align: center;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  text-align: center;
+}
+
+section img {
+  border-radius: 12px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+section h2,
+section h3,
+section p {
+  color: #333;
+}
+
+section p a {
+  text-decoration: none;
+  color: #ff69b4;
+  transition: color 0.3s ease;
+  font-size: 1.5em;
+}
+
+section p a:hover {
+  color: #4e9ffc;
+}
+
+section p a:active {
+  color: #9641f8;
+}
+
+.carousel-container {
+  width: 40%;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel img {
+  flex: 0 0 auto;
+  max-width: 50%;
+  scroll-snap-align: start;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.popular-songs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.popular-song-card {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: calc(30% - 20px);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.popular-song-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.popular-song-card img {
+  border-radius: 8px;
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.popular-song-card h4 {
+  margin-bottom: 10px;
+  color: #e7eb10;
+  font-size: 20px;
+}
+
+.popular-song-card p {
+  color: #ba46f0;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.popular-song-card span {
+  display: block;
+  color: #999;
+  font-size: 14px;
+}
+
+footer {
+  color: #7fe9e9;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

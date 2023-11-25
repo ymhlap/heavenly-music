@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>歌手页面 - 云音天籁</title>
+    <link rel="icon" type="image/png" href="../images/音乐小图标1.png">
+    <link rel="stylesheet" type="text/css" href="../CSS/singer.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">主页</a></li>
+                <li><a href="playlists.html">歌单列表</a></li>
+                <li><a href="playlist_detail.html">歌单详情</a></li>
+                <li><a href="album.html">专辑</a></li>
+                <li><a href="singer.html">歌手信息</a></li>
+                <li><a href="play.html">播放</a></li>
+                <li><a href="search.html">搜索</a></li>
+                <li><a href="my_music.html">我的音乐</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>歌手信息</h2>
+            <img src="../images/歌手.png" alt="艺人照片" width="500">
+            <h3>歌手名称</h3>
+            <p><a href="https://baike.baidu.com/item/%E9%BB%83%E8%A9%A9%E6%89%B6/23415950" target="_blank">黄诗扶</a></p>
+            <h3>歌手介绍</h3>
+            <p>黄诗扶自幼开始学习音乐，</p>
+            <p>2014年，开始任上海市市宫茉莉花民族乐团高胡乐手，</p>
+            <p>期间跟随乐团参加上海市市宫民乐团暨国庆献礼演出《我的祖国》、贺绿汀音乐厅“上海之春”民族音乐会、</p>
+            <p>“反法西斯70周年”上海音乐厅音乐会“同沐胜利荣光共创复兴辉煌”、贺绿汀音乐厅“上海之春”民族音乐会等活动。
+            </p>
+            <p>2015年，从上海师范大学录音艺术专业毕业；</p>
+            <p>2017年，从英国布里斯托大学影视音乐作曲专业毕业，并取得硕士学位。</p>
+            <p>早期主攻二胡演奏、音乐制作，多为他人作曲。</p>
+            <p>2019年，发布个人首张专辑《人间不值得》，正式由幕后转向台前。
+            </p>
+        </section>
+        <section>
+            <h2>专辑列表</h2>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <img src="../images/人间不值得.jpg" alt="专辑1">
+                    <img src="../images/入梦也.jpg" alt="专辑2">
+                    <img src="../images/吹梦到西洲.jpg" alt="专辑3">
+                    <img src="../images/杨花落尽子规啼.jpg" alt="专辑4">
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>热门歌曲</h2>
+            <div class="popular-songs">
+                <div class="popular-song-card">
+                    <img src="../images/吹梦到西洲.jpg" alt="热门歌曲1">
+                    <div>
+                        <h4>吹梦到西洲</h4>
+                        <p>歌手: 恋恋故人难/黄诗扶/妖扬</p>
+                        <p>专辑: 吹梦到西洲</p>
+                        <p>时长: 5:16</p>
+                        <p>发行时间: 2019-07-10</p>
+                        <span>曲风: 国风-古风</span>
+                        <span>语种: 华语</span>
+                    </div>
+                </div>
+                <div class="popular-song-card">
+                    <img src="../images/杨花落尽子规啼.jpg" alt="热门歌曲2">
+                    <div>
+                        <h4>杨花落尽子规啼</h4>
+                        <p>歌手: G2er/黄诗扶/国风堂</p>
+                        <p>专辑: 杨花落尽子规啼</p>
+                        <p>时长: 3:45</p>
+                        <p>发行时间: 2019-07-05</p>
+                        <span>曲风: 国风-古风</span>
+                        <span>语种: 华语</span>
+                    </div>
+                </div>
+                <div class="popular-song-card">
+                    <img src="../images/人间不值得.jpg" alt="热门歌曲3">
+                    <div>
+                        <h4>人间不值得</h4>
+                        <p>歌手: 黄诗扶</p>
+                        <p>专辑: 人间不值得</p>
+                        <p>时长: 4:45</p>
+                        <p>发行时间: 2019-01-18</p>
+                        <span>曲风: 国风-国风流行</span>
+                        <span>语种: 国语</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>视频播放</h2>
+            <video width="80%" controls>
+                <source src="../images/吹梦到西洲.mp4" type="video/mp4">
+            </video>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 云音天籁</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="../JS/singer.js"></script>
+</body>
+
+</html>

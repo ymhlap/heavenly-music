@@ -1,0 +1,154 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/音乐背景.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-x: hidden;
+  margin-top: 50px;
+}
+
+header {
+  color: #7fe9e9;
+  padding: 10px 0;
+  font-size: 18px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  text-align: center;
+  margin-top: 5px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+main {
+  text-align: center;
+  margin-top: 80px;
+}
+
+#hero {
+  background: no-repeat;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+#hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+#scroll-down {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+}
+
+#featured-playlists {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+#content-bottom-margin {
+  height: 100px;
+}
+
+.playlist-card {
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.playlist-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.playlist-card img {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.playlist-card:hover img {
+  transform: scale(1.1);
+}
+
+.playlist-card h3 {
+  margin-top: 15px;
+  color: #333;
+}
+
+.playlist-card p {
+  color: #666;
+}
+
+.playlist-card div a {
+  color: #7fe9e9;
+  transition: color 0.3s ease;
+}
+
+.playlist-card div a:hover {
+  color: #ffd700;
+}
+
+footer {
+  color: #7fe9e9;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer span {
+  font-size: 12px;
+}

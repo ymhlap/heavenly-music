@@ -1,0 +1,132 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  background-image: url(../images/音乐背景.jpg);
+  color: #000000;
+}
+
+header {
+  color: #7fe9e9;
+  padding: 10px 0;
+  font-size: 18px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  text-align: center;
+  margin-top: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #7fe9e9;
+  font-size: 18px;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.page-title {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.playlist-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+.playlist-card {
+  width: calc(20% - 20px);
+  margin-bottom: 70px;
+}
+
+div {
+  background-color: rgb(198, 220, 228);
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+div:hover {
+  transform: scale(1.05);
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+div:hover img {
+  opacity: 0.8;
+}
+
+h3 {
+  color: #f78383;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #b1f1f1;
+  color: #3f0808;
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+div p {
+  color: #333;
+}
+
+p {
+  color: #7fe9e9;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+footer {
+  color: #7fe9e9;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

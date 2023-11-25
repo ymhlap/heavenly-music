@@ -1,0 +1,121 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ffd700, #7fe9e9);
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/音乐背景.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #080808;
+  overflow-x: hidden;
+  margin-top: 50px;
+}
+
+header {
+  color: #7fe9e9;
+  padding: 10px 0;
+  font-size: 18px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  text-align: center;
+  margin-top: 5px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+main {
+  text-align: center;
+  margin-top: 80px;
+}
+
+main div {
+  text-align: center;
+}
+
+#search-results {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+#search-results h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#search-results img {
+  width: 25%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.result h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.result a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.result a:hover {
+  color: #ffd700;
+}
+
+#play-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fffb00;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#play-button:hover {
+  background-color: #f34b09;
+  color: #0decfc;
+}

@@ -1,0 +1,79 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/音乐背景.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    background-color: #7fe9e9;
+    background-image: url(../images/音乐背景.jpg);
+    color: #7fe9e9;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+nav ul li a {
+    color: #7fe9e9;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ff9900;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #dff1f0;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    background-image: url(../images/音乐背景.jpg);
+    color: #7fe9e9;
+    text-align: center;
+    padding: 10px 0;
+}

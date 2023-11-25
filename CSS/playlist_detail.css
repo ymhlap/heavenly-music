@@ -1,0 +1,177 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/音乐背景.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  color: #7fe9e9;
+  padding: 10px 0;
+  font-size: 18px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  text-align: center;
+  margin-top: 5px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+div div img {
+  width: 200PX;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  margin: 20px auto;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  text-align: center;
+}
+
+section img {
+  border-radius: 12px;
+  width: 800px;
+  height: auto;
+  margin: 0 auto 40px;
+  display: block;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+section h2,
+section p {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+section h3 {
+  color: #6f4ffe;
+}
+
+.song-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.song-card {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: calc(30% - 20px);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.song-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.song-card h4 {
+  margin-bottom: 10px;
+  color: #4facfe;
+  font-size: 20px;
+}
+
+.song-card p {
+  color: #65dd03;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.song-card span {
+  display: block;
+  color: pink;
+  font-size: 14px;
+}
+
+.call-to-action {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  text-align: center;
+}
+
+.call-to-action h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.call-to-action p {
+  color: #777;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.call-to-action a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: linear-gradient(to right, #ffd700, #7fe9e9);
+  transition: background 0.3s ease;
+}
+
+.call-to-action a:hover {
+  background: linear-gradient(to right, #7fe9e9, #ffd700);
+}
+
+footer {
+  color: #7fe9e9;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+}

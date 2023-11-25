@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>播放音乐 - 云音天籁</title>
+    <link rel="icon" type="image/png" href="../images/音乐小图标1.png">
+    <link rel="stylesheet" type="text/css" href="../CSS/play.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">主页</a></li>
+                <li><a href="playlists.html">歌单列表</a></li>
+                <li><a href="playlist_detail.html">歌单详情</a></li>
+                <li><a href="album.html">专辑</a></li>
+                <li><a href="singer.html">歌手信息</a></li>
+                <li><a href="play.html">播放</a></li>
+                <li><a href="search.html">搜索</a></li>
+                <li><a href="my_music.html">我的音乐</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>正在播放</h2>
+            <audio controls id="audio-player">
+                <source src="../images/求神呐.mp3" type="audio/mpeg">
+            </audio>
+            <button class="switch-button" onclick="switchSong()">切换歌曲</button>
+            <div>
+                <h3 id="song-title">求神呐 - 柏鹿</h3>
+            </div>
+            <div class="lyrics-container">
+                <div class="lyrics-column">
+                </div>
+                <div class="lyrics-column">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 云音天籁</p>
+    </footer>
+
+    <script src="../JS/play.js"></script>
+</body>
+
+</html>

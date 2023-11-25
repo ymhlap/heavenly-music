@@ -1,0 +1,163 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/音乐背景.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #000000;
+  overflow-x: hidden;
+  margin-top: 50px;
+}
+
+header {
+  color: #7fe9e9;
+  padding: 10px 0;
+  font-size: 18px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  text-align: center;
+  margin-top: 5px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #b586f3;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+main {
+  text-align: center;
+  margin-top: 80px;
+}
+
+section {
+  margin-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+section li {
+  background-color: #f0f0f0;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+section li:hover {
+  background-color: #e0e0e0;
+}
+
+section div a {
+  text-decoration: none;
+  color: #006eff;
+}
+
+section table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+section table,
+section table tr,
+section table tr th,
+section table tr td {
+  border: 1px solid #000;
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e9d5d5;
+}
+
+.song-artist-separator {
+  border-right: 1px solid #000;
+}
+
+.additional-content {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.additional-content p {
+  margin-bottom: 10px;
+}
+
+.favorites-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.favorites-item {
+  background: linear-gradient(to right, #80e0f1, #67e7c7);
+  color: #9479b8;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  width: 200px;
+}
+
+.favorites-item:hover {
+  background: linear-gradient(to right, #e7f33d, #faad06);
+  color: #f85d2e;
+}
+
+footer {
+  color: #7fe9e9;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
